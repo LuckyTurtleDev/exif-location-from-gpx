@@ -1,0 +1,13 @@
+[package]
+name = "exif-location-from-gpx"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+clap = { version = "4.4.6", features = ["derive"] }
+geo-types = "0.7.11"
+gpx = "0.9.1"
+time = "0.3.29"
